@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="tarea.html" method="post"></form>
+    <h2>Búsqueda avanzada</h2>
+
+    
+    <label for="titulo">Título del libro: </label>
+    <input type="text" id= titulo name="titulo" placeholder="Título">
+    <br><br>
+
+    <label for="autor">Quién lo escribió?: </label>
+    <input type="text" name="autor" placeholder="Nombre">
+    <br><br>
+
+    <label for="genero">Género: </label>
+    <select name="genero">
+        <option value ="ficcion">Ficción</option>
+        <option value="romance">Romance</option>
+        <option value="literatura">Literatura</option>
+        <option value="comedia">Comedia</option>
+        <option value="terror">Terror</option>
+        <option value="Autoayuda">Autoayuda</option>
+    </select>
+    <br><br>
+
+    <label for="Fecha de publicación">Fecha de publicación: </label>
+    <br>
+    <label for="desde">Entre </label>
+    <input type="date" id= date1 name="date1" placeholder="Fecha inicial">
+    <label for="hasta"> Hasta </label>
+    <input type="date" id= date2 name="date2" placeholder="Fecha final">
+    <br><br>
+
+    <label for="orden">Ordenar por: </label>
+    <select name="orden">
+        <option value ="genero">Género</option>
+        <option value="año">Año</option>
+        <option value="autor">Autor</option>
+        <option value="titulo">Título</option>
+        <option value="calificacion">Calificación</option>
+    </select>
+    <br><br>
+
+
+    <input type="submit" value=Buscar>
+    <br><br>
+    
+</body>
+</html>
