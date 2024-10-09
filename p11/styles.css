@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem; 
+}
+
+header .intro {
+    font-size: 1.25rem; 
+}
+
+/* Sección en px */
+.px-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.px-section h2 {
+    font-size: 24px;
+}
+
+.px-section p {
+    font-size: 20px;
+}
+
+/* Sección en em */
+.em-section {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.em-section h2 {
+    font-size: 1.5em;
+}
+
+.em-section p {
+    font-size: 1em;
+}
+
+.nested-em {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.nested-em p {
+    font-size: 1.5em; 
+}
+
+/* Sección en rem */
+.rem-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.rem-section h2 {
+    font-size: 1.75rem;
+}
+
+.rem-section p {
+    font-size: 1.25rem; 
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem; 
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medida CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explorando Unidades de Medida</h1>
+        <p class="intro">Diferencias entre px, em y rem</p>
+    </header>
+
+    <main>
+        <section class="px-section">
+            <h2>Unidades en px</h2>
+            <p>Este texto tiene un tamaño fijo definido con <strong>px</strong>. No cambia según el contenedor o el tamaño de la pantalla. <br>
+            Texto de ejemplo con 20px.</p>
+        </section>
+
+        <section class="em-section">
+            <h2>Unidades en em</h2>
+            <p>Este texto usa <strong>em</strong>, relativo al tamaño del padre. El tamaño del texto cambia según el contexto del contenedor.</p>
+            <div class="nested-em">
+                <p>Texto dentro de un contenedor anidado con 1.5em. El tamaño de este texto se ajusta en función del tamaño de fuente del contenedor padre.</p>
+            </div>
+        </section>
+
+        <section class="rem-section">
+            <h2>Unidades en rem</h2>
+            <p>Este texto usa <strong>rem</strong>, que es relativo al tamaño de fuente del elemento raíz (el tamaño definido en <code>&lt;html&gt;</code>). Esto hace que el tamaño de texto sea consistente en todo el documento.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Diseñado con px, em y rem</p>
+        <p>por Isaac Guzmán, 22550331</p>
+    </footer>
+</body>
+</html>

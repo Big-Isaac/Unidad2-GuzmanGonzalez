@@ -1,0 +1,32 @@
+/* Colores */
+.contenedor p{ 
+    color: red;     /* Cambia el color del texto */
+    background-color: yellow; /* Cambia el color de fondo */
+}
+
+/* Fuente */
+h1{
+    font-family: Arial, sans-serif; /* Cambia la fuente */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Pone el texto en negrita */
+    font-style: italic; /* Aplica cursiva */
+}
+
+/* Espaciado y margenes */
+h2
+{
+    padding: 10px; /* Espacio fuera del borde del elemento */
+    margin: 20px; /* Espacio dentro del borde del elemento */
+}
+
+/* Bordes */
+h3 {
+border: 2px solid black; /* Borde sólido negro de 2px */
+}
+
+/* Ancho y alto */
+div
+{
+width: 200px; /* Ancho de 200 píxeles */
+height: 100px; /* Alto de 100 píxeles */
+}
